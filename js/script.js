@@ -1,4 +1,4 @@
- // Preloader Logic
+// Preloader Logic
         window.addEventListener('load', () => {
             const preloader = document.getElementById('preloader');
             if (preloader) {
@@ -192,7 +192,7 @@
         // Initialize Swiper for projects section
         const projectsSwiper = new Swiper(".projects-swiper", {
             slidesPerView: 1,
-            spaceBetween: 30,
+            spaceBetween: 16, /* Adjusted from 30 */
             loop: true,
             autoplay: {
                 delay: 5000, // 5 seconds
@@ -212,9 +212,11 @@
                 },
                 768: {
                     slidesPerView: 2,
+                    spaceBetween: 16, /* Adjusted from 30 */
                 },
                 1024: {
                     slidesPerView: 3,
+                    spaceBetween: 16, /* Adjusted from 30 */
                 },
             },
         });
@@ -222,7 +224,7 @@
         // Initialize Swiper for articles section
         const articlesSwiper = new Swiper(".articles-swiper", {
             slidesPerView: 1,
-            spaceBetween: 30,
+            spaceBetween: 16, /* Adjusted from 30 */
             loop: true,
             autoplay: {
                 delay: 5000, // 5 seconds
@@ -242,9 +244,11 @@
                 },
                 768: {
                     slidesPerView: 2,
+                    spaceBetween: 16, /* Adjusted from 30 */
                 },
                 1024: {
                     slidesPerView: 3,
+                    spaceBetween: 16, /* Adjusted from 30 */
                 },
             },
         });

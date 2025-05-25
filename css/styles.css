@@ -1,38 +1,40 @@
 /* Custom styles for Inter font and smooth scrolling */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f8fafc; /* Light blue-gray background */
-            color: #334155; /* Darker text */
+            background-color: #F1EEE4; /* Light background */
+            color: #100C24; /* Darker text */
             overflow-x: hidden; /* Prevent horizontal scroll due to animations */
+            margin: 0; /* Removed default body margin */
+            padding: 0; /* Removed default body padding */
         }
         /* Dark mode styles */
         body.dark {
-            background-color: #1a202c; /* Dark background */
-            color: #e2e8f0; /* Lighter text */
+            background-color: #34302c; /* Dark background */
+            color: #FFFFFF; /* White text for dark mode */
         }
         body.dark .bg-white {
-            background-color: #2d3748; /* Darker card/section background */
-            color: #e2e8f0;
+            background-color: #4a4643; /* Darker card/section background in dark mode */
+            color: #FFFFFF;
         }
-        body.dark .bg-gray-50 {
-            background-color: #4a5568; /* Darker gray background */
-            color: #e2e8f0;
+        body.dark .bg-gray-50 { /* Used for testimonial cards in light mode */
+            background-color: #4a4643; /* Darker gray background in dark mode */
+            color: #FFFFFF;
         }
-        body.dark .bg-gray-100 {
-            background-color: #2d3748; /* Darker gray background */
-            color: #e2e8f0;
+        body.dark .bg-gray-100 { /* Used for skills, projects, articles, resume, education sections in light mode */
+            background-color: #4a4643; /* Darker gray background in dark mode */
+            color: #FFFFFF;
         }
-        body.dark .text-gray-900 {
-            color: #e2e8f0;
+        body.dark .text-gray-900 { /* Main headings in light mode */
+            color: #FFFFFF;
         }
-        body.dark .text-gray-700 {
-            color: #cbd5e0;
+        body.dark .text-gray-700 { /* Paragraph text in light mode */
+            color: #e0e0e0; /* Slightly off-white for body text */
         }
-        body.dark .text-gray-600 {
-            color: #a0aec0;
+        body.dark .text-gray-600 { /* Secondary text in light mode */
+            color: #cccccc;
         }
-        body.dark .text-gray-500 {
-            color: #718096;
+        body.dark .text-gray-500 { /* Fainter text in light mode */
+            color: #b0b0b0;
         }
         body.dark .shadow-lg {
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.15);
@@ -41,60 +43,61 @@
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
         }
         body.dark .border-white {
-            border-color: #4a5568;
+            border-color: #605c58; /* Adjust border color for dark mode */
         }
         body.dark .modal-content {
-            background-color: #2d3748;
-            color: #e2e8f0;
+            background-color: #4a4643;
+            color: #FFFFFF;
         }
         body.dark .modal-close-button {
-            color: #cbd5e0;
+            color: #e0e0e0;
         }
         body.dark input, body.dark textarea {
-            background-color: #4a5568;
-            border-color: #616e7f;
-            color: #e2e8f0;
+            background-color: #605c58;
+            border-color: #7a7672;
+            color: #FFFFFF;
         }
         body.dark input::placeholder, body.dark textarea::placeholder {
-            color: #a0aec0;
+            color: #b0b0b0;
         }
-        body.dark .bg-gray-200 {
-            background-color: #616e7f;
+        body.dark .bg-gray-200 { /* For skill bar background in light mode */
+            background-color: #605c58;
         }
-        body.dark .text-gray-800 {
-            color: #e2e8f0;
+        body.dark .text-gray-800 { /* Used for mobile menu links in light mode */
+            color: #FFFFFF;
         }
         body.dark .nav-link.active {
-            @apply text-blue-400; /* Adjust active link color for dark mode */
+            color: #fa7b00; /* Primary color for active link in dark mode */
         }
         body.dark .swiper-button-next, body.dark .swiper-button-prev {
-            color: #63b3ed !important; /* Adjust swiper nav color */
+            color: #fa7b00 !important; /* Primary color for swiper nav */
         }
         body.dark .swiper-pagination-bullet {
-            background: #a0aec0 !important;
+            background: #b0b0b0 !important;
         }
         body.dark .swiper-pagination-bullet-active {
-            background: #63b3ed !important;
+            background: #fa7b00 !important;
         }
-        body.dark .text-gray-400 { /* For footer text */
-            color: #9ca3af;
+        body.dark .text-gray-400 { /* For footer text in light mode */
+            color: #e0e0e0; /* Lighter text for footer in dark mode */
         }
-        body.dark .border-gray-700 { /* For footer divider */
-            border-color: #4a5568;
+        body.dark .border-gray-700 { /* For footer divider in light mode */
+            border-color: #605c58;
         }
 
 
         /* Style for active navigation link */
         .nav-link.active {
-            @apply text-blue-600 font-semibold;
+            color: #fa7b00; /* Primary color for active link */
+            font-weight: 600;
         }
         /* Custom styles for Swiper pagination bullets */
         .swiper-pagination-bullet {
-            background: #94a3b8 !important; /* Gray */
+            background: #b0b0b0 !important; /* Gray */
             opacity: 0.7 !important;
         }
         .swiper-pagination-bullet-active {
-            background: #2563eb !important; /* Blue */
+            background: #fa7b00 !important; /* Primary color */
             opacity: 1 !important;
         }
         /* Custom animation for fade-in-up */
@@ -125,10 +128,10 @@
         .delay-1100 { animation-delay: 1.1s; }
         .delay-1200 { animation-delay: 1.2s; }
         .delay-1300 { animation-delay: 1.3s; }
-        .delay-1400 { animation-delay: 1.4s; } /* Adjusted for new section */
-        .delay-1500 { animation-delay: 1.5s; } /* Adjusted for new section */
-        .delay-1600 { animation-delay: 1.6s; } /* Adjusted for new section */
-        .delay-1700 { animation-delay: 1.7s; } /* Adjusted for new section */
+        .delay-1400 { animation-delay: 1.4s; }
+        .delay-1500 { animation-delay: 1.5s; }
+        .delay-1600 { animation-delay: 1.6s; }
+        .delay-1700 { animation-delay: 1.7s; }
 
         /* Typing cursor animation */
         .typing-cursor {
@@ -149,7 +152,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: #ffffff; /* White background */
+            background: #F1EEE4; /* Light background */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -158,7 +161,7 @@
         }
         .spinner {
             border: 4px solid rgba(0, 0, 0, 0.1);
-            border-left-color: #2563eb; /* Blue spinner */
+            border-left-color: #fa7b00; /* Primary color for spinner */
             border-radius: 50%;
             width: 50px;
             height: 50px;
@@ -193,8 +196,8 @@
             visibility: visible;
         }
         .modal-content {
-            background-color: white;
-            padding: 2rem;
+            background-color: #F1EEE4; /* Light background */
+            padding: 1.5rem; /* Reduced padding */
             border-radius: 0.75rem;
             max-width: 90%;
             max-height: 90%;
@@ -202,28 +205,29 @@
             position: relative;
             transform: translateY(20px);
             transition: transform 0.3s ease-out;
+            color: #100C24; /* Dark text */
         }
         .modal.show .modal-content {
             transform: translateY(0);
         }
         .modal-close-button {
             position: absolute;
-            top: 1rem;
-            right: 1rem;
+            top: 0.75rem; /* Adjusted position */
+            right: 0.75rem; /* Adjusted position */
             background: none;
             border: none;
             font-size: 1.5rem;
             cursor: pointer;
-            color: #4b5563; /* Gray */
+            color: #100C24; /* Dark text */
         }
         /* Back to top button */
         #back-to-top {
             position: fixed;
             bottom: 1.5rem;
             right: 1.5rem;
-            background-color: #2563eb; /* Blue */
+            background-color: #fa7b00; /* Primary color */
             color: white;
-            padding: 0.75rem 1rem;
+            padding: 0.5rem 0.75rem; /* Reduced padding */
             border-radius: 9999px; /* Fully rounded */
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
             display: flex;
@@ -242,13 +246,13 @@
             transform: translateY(0);
         }
         #back-to-top:hover {
-            background-color: #1d4ed8; /* Darker blue on hover */
+            background-color: #d46a00; /* Darker primary color on hover */
             transform: translateY(-2px);
         }
         /* Contact form messages */
         #contact-form-message {
-            margin-top: 1rem;
-            padding: 0.75rem 1rem;
+            margin-top: 0.75rem; /* Reduced margin */
+            padding: 0.5rem 0.75rem; /* Reduced padding */
             border-radius: 0.5rem;
             font-weight: 600;
             text-align: center;
@@ -278,12 +282,11 @@
             vertical-align: middle;
         }
 
-        /* Specific styles for Ismail's profile
+        /* Specific styles for Ismail's profile image if he provides one */
         .profile-img {
-             object-position: center top; 
-             width: 50px;
+            /* object-position: center top; */
         }
-        */
+
         /* Skill bar animation */
         @keyframes fillProgressBar {
             from { width: 0%; }
@@ -294,4 +297,174 @@
             animation-timing-function: ease-out;
             animation-duration: 1.5s; /* Adjust duration as needed */
             width: 0%; /* Start at 0% for animation */
+        }
+
+        /* New Skill Bar Colors */
+        .progress-react { background-color: #00ADB5; } /* Teal */
+        .progress-js { background-color: #4299E1; } /* Blue */
+        .progress-html-css { background-color: #48BB78; } /* Green */
+        .progress-tailwind { background-color: #9F7AEA; } /* Purple */
+        .progress-swiper { background-color: #F6AD55; } /* Orange-Yellow */
+        .progress-emailjs { background-color: #F56565; } /* Red */
+        .progress-api { background-color: #805AD5; } /* Deep Purple */
+        .progress-typescript { background-color: #007ACC; } /* Darker Blue */
+
+        /* Dark mode for new skill bar colors */
+        body.dark .progress-react { background-color: #008C94; } /* Darker Teal */
+        body.dark .progress-js { background-color: #3182CE; } /* Darker Blue */
+        body.dark .progress-html-css { background-color: #38A169; } /* Darker Green */
+        body.dark .progress-tailwind { background-color: #805AD5; } /* Darker Purple */
+        body.dark .progress-swiper { background-color: #DD6B20; } /* Darker Orange-Yellow */
+        body.dark .progress-emailjs { background-color: #C53030; } /* Darker Red */
+        body.dark .progress-api { background-color: #6B46C1; } /* Even Deeper Purple */
+        body.dark .progress-typescript { background-color: #005F99; } /* Even Darker Blue */
+
+
+        /* Modernized Look Enhancements */
+        .gradient-hero {
+            background-image: linear-gradient(to right, #fa7b00, #ff8c00); /* Subtle orange gradient */
+        }
+        .gradient-contact {
+            background-image: linear-gradient(to left, #fa7b00, #ff8c00); /* Subtle orange gradient */
+        }
+        /* Removed section-card and its shadows for a flatter, more integrated look */
+
+        /* Adjusted padding for a more compact feel, removing most explicit padding */
+        section {
+            padding-top: 2rem; /* Reduced from 5rem */
+            padding-bottom: 2rem; /* Reduced from 5rem */
+        }
+        @media (min-width: 768px) {
+            section {
+                padding-top: 3rem; /* Reduced from 8rem */
+                padding-bottom: 3rem; /* Reduced from 8rem */
+            }
+        }
+        .container {
+            padding-left: 0.5rem; /* Reduced from 1.5rem */
+            padding-right: 0.5rem; /* Reduced from 1.5rem */
+            max-width: 100%; /* Allow full width */
+        }
+        @media (min-width: 768px) {
+            .container {
+                padding-left: 1rem; /* Reduced from 2rem */
+                padding-right: 1rem; /* Reduced from 2rem */
+            }
+        }
+
+        /* Specific component padding adjustments */
+        .header-nav {
+            padding-left: 0.5rem; /* Reduced from px-4 */
+            padding-right: 0.5rem; /* Reduced from px-4 */
+            padding-top: 0.5rem; /* Reduced from py-4 */
+            padding-bottom: 0.5rem; /* Reduced from py-4 */
+        }
+        .mobile-menu {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+        .mobile-menu a {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+        }
+
+        .hero-section {
+            padding-top: 3rem; /* Adjusted from py-16 */
+            padding-bottom: 3rem; /* Adjusted from py-16 */
+        }
+        @media (min-width: 768px) {
+            .hero-section {
+                padding-top: 4rem; /* Adjusted from md:py-24 */
+                padding-bottom: 4rem; /* Adjusted from md:py-24 */
+            }
+        }
+
+        .about-section {
+            padding: 1rem; /* Reduced from p-4 md:p-8 */
+            margin-left: 0; /* Removed mx-4 */
+            margin-right: 0; /* Removed mx-4 */
+            max-width: 100%; /* Removed max-w-6xl */
+            border-radius: 0; /* Removed rounded-xl */
+            box-shadow: none; /* Removed shadow-lg */
+        }
+        .about-inner-card {
+            padding: 0.75rem; /* Reduced from p-4 */
+        }
+
+        .skill-card, .service-card, .project-card, .article-card, .testimonial-card, .certification-card, .education-card {
+            padding: 1rem; /* Reduced from p-6, p-8 */
+            border-radius: 0.5rem; /* Slightly less rounded */
+            box-shadow: none; /* Removed default shadows */
+            border: 1px solid rgba(0,0,0,0.05); /* Subtle border for definition */
+        }
+        body.dark .skill-card, body.dark .service-card, body.dark .project-card, body.dark .article-card, body.dark .testimonial-card, body.dark .certification-card, body.dark .education-card {
+            border-color: rgba(255,255,255,0.1); /* Subtle border for dark mode */
+        }
+
+
+        .contact-form {
+            padding: 1.5rem; /* Reduced from p-8 */
+            border-radius: 0.75rem;
+            box-shadow: none; /* Removed default shadow */
+            border: 1px solid rgba(0,0,0,0.05); /* Subtle border */
+        }
+        body.dark .contact-form {
+            border-color: rgba(255,255,255,0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding-top: 0.5rem; /* Reduced from py-3 */
+            padding-bottom: 0.5rem; /* Reduced from py-3 */
+            padding-left: 0.75rem; /* Reduced from px-4 */
+            padding-right: 0.75rem; /* Reduced from px-4 */
+            border-radius: 0.5rem; /* Adjusted border radius */
+        }
+
+        .footer-section {
+            padding-top: 1rem; /* Reduced from py-8 */
+            padding-bottom: 1rem; /* Reduced from py-8 */
+        }
+        .footer-bottom {
+            padding-top: 1rem; /* Reduced from pt-8 */
+        }
+
+        /* Ensure elements within the grid still have some spacing */
+        .grid {
+            gap: 1rem; /* Reduced from gap-8 */
+        }
+
+        /* Override specific Tailwind padding classes with custom ones for consistency */
+        .px-4 { padding-left: 0.5rem; padding-right: 0.5rem; }
+        .py-4 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .px-8 { padding-left: 1rem; padding-right: 1rem; }
+        .py-3 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .py-2 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+        .p-6 { padding: 1rem; }
+        .p-8 { padding: 1.5rem; }
+        .p-4 { padding: 0.75rem; }
+        .px-10 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .py-4 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+        .py-16 { padding-top: 2rem; padding-bottom: 2rem; }
+        .py-20 { padding-top: 2rem; padding-bottom: 2rem; }
+        .py-24 { padding-top: 3rem; padding-bottom: 3rem; }
+        .py-12 { padding-top: 2rem; padding-bottom: 2rem; }
+        .py-8 { padding-top: 1rem; padding-bottom: 1rem; }
+        .pt-8 { padding-top: 1rem; }
+        .pb-8 { padding-bottom: 1rem; }
+        .mb-6 { margin-bottom: 0.75rem; }
+        .mb-8 { margin-bottom: 1rem; }
+        .mb-12 { margin-bottom: 1.5rem; }
+        .mt-4 { margin-top: 0.75rem; }
+        .mt-8 { margin-top: 1rem; }
+        .mt-12 { margin-top: 1.5rem; }
+        .space-y-4 > *:not([hidden]) ~ *:not([hidden]) {
+            margin-top: 0.75rem; /* Reduced from 1rem */
+        }
+        .space-x-6 > *:not([hidden]) ~ *:not([hidden]) {
+            margin-left: 1rem; /* Reduced from 1.5rem */
+        }
+        .space-x-8 > *:not([hidden]) ~ *:not([hidden]) {
+            margin-left: 1.5rem; /* Reduced from 2rem */
         }

@@ -16,8 +16,11 @@
     <meta property="twitter:url" content="https://ismailmensah.vercel.app/"> <meta property="twitter:title" content="Ismail Ibrahim Mensah - Developer, Designer, Writer">
     <meta property="twitter:description" content="Ismail Ibrahim Mensah's professional portfolio showcasing his skills as a Developer, Designer, and Writer.">
     <meta property="twitter:image" content="https://placehold.co/1200x630/007BFF/FFFFFF?text=Ismail+Mensah+Portfolio"> 
-    <link rel="icon" href="https://placehold.co/32x32/007BFF/FFFFFF?text=IM" type="image/png"> <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="icon" href="/assets/images/preview.png" type="image/x-icon">
 
+    
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -30,79 +33,79 @@
     </div>
 
     <header class="bg-white shadow-lg sticky top-0 z-50">
-        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <nav class="container mx-auto header-nav flex justify-between items-center">
             <a href="#" class="flex items-center" aria-label="Ismail Mensah Home">
-                <img src="/assets/images/logo3.png" alt="" loading="lazy" class="w-10 h-10 rounded-full mr-3">
-                <span class="text-2xl font-bold text-gray-900 hidden sm:block">Ismail Mensah</span>
+                <img src="assets/images/preview.png" alt="Ismail Ibrahim Mensah Logo" class="w-12 h-12 rounded-full mr-2">
+                <span class="text-2xl font-bold text-[#100C24] hidden sm:block">Ismail I Mensah</span>
             </a>
             <div class="hidden md:flex space-x-6">
-                <a href="#about" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">About</a>
-                <a href="#skills" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Skills</a>
-                <a href="#services" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
-                <a href="#projects" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Projects</a>
-                <a href="#articles" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Articles</a>
-                <a href="#testimonials" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
-                <a href="#resume" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Resume</a>
-                <a href="#certifications" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Certifications</a>
-                <a href="#education" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Education</a>
-                <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
+                <a href="#about" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">About</a>
+                <a href="#skills" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Skills</a>
+                <a href="#services" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Services</a>
+                <a href="#projects" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Projects</a>
+                <a href="#articles" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Articles</a>
+                <a href="#testimonials" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Testimonials</a>
+                <a href="#resume" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Resume</a>
+                <a href="#certifications" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Certifications</a>
+                <a href="#education" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Education</a>
+                <a href="#contact" class="nav-link text-[#100C24] hover:text-[#fa7b00] transition duration-300">Contact</a>
             </div>
-            <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-blue-600 focus:outline-none" aria-label="Open mobile menu">
+            <button id="mobile-menu-button" class="md:hidden text-[#100C24] hover:text-[#fa7b00] focus:outline-none" aria-label="Open mobile menu">
                 <i class="fas fa-bars text-xl"></i>
             </button>
-            <button id="dark-mode-toggle" class="ml-4 p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-300 focus:outline-none" aria-label="Toggle dark mode">
+            <button id="dark-mode-toggle" class="ml-4 p-2 rounded-full bg-[#ececec] dark:bg-[#34302c] text-[#100C24] dark:text-white hover:bg-[#d1d1d1] dark:hover:bg-[#4a4643] transition-colors duration-300 focus:outline-none" aria-label="Toggle dark mode">
                 <i class="fas fa-moon hidden dark:block"></i>
                 <i class="fas fa-sun dark:hidden"></i>
             </button>
         </nav>
-        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-2">
-            <a href="#about" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">About</a>
-            <a href="#skills" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Skills</a>
-            <a href="#services" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Services</a>
-            <a href="#projects" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Projects</a>
-            <a href="#articles" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Articles</a>
-            <a href="#testimonials" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Testimonials</a>
-            <a href="#resume" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Resume</a>
-            <a href="#certifications" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Certifications</a>
-            <a href="#education" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Education</a>
-            <a href="#contact" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 nav-link">Contact</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg mobile-menu">
+            <a href="#about" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">About</a>
+            <a href="#skills" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Skills</a>
+            <a href="#services" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Services</a>
+            <a href="#projects" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Projects</a>
+            <a href="#articles" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Articles</a>
+            <a href="#testimonials" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Testimonials</a>
+            <a href="#resume" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Resume</a>
+            <a href="#certifications" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Certifications</a>
+            <a href="#education" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Education</a>
+            <a href="#contact" class="block px-4 py-2 text-[#100C24] hover:bg-[#ececec] nav-link">Contact</a>
         </div>
     </header>
 
     <main>
-        <section id="hero" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20 md:py-32 text-center rounded-b-3xl shadow-xl">
-            <div class="container mx-auto px-4">
-                <img src="/assets/images/Main.jpg" alt="Ismail Ibrahim Mensah Profile Picture" loading="lazy" class="rounded-full w-44 h-44 mx-auto mb-6 border-4 border-white shadow-lg object-cover transform transition duration-500 hover:scale-105 animate-fade-in-up profile-img">
-                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-up delay-100">Ismail Ibrahim Mensah</h1>
-                <p class="text-lg md:text-2xl mb-8 animate-fade-in-up delay-200">A passionate <span id="typing-text" class="font-semibold"></span><span class="typing-cursor">|</span></p>
-                <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-100 px-8 py-3 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 shadow-lg animate-fade-in-up delay-300">
+        <section id="hero" class="gradient-hero text-white hero-section text-center rounded-b-3xl shadow-xl">
+            <div class="container mx-auto">
+                <img src="assets/images/Main.jpg" alt="Ismail Ibrahim Mensah Profile Picture" loading="lazy" class="rounded-full w-44 h-44 mx-auto mb-4 border-4 border-white shadow-lg object-cover transform transition duration-500 hover:scale-105 animate-fade-in-up profile-img">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-2 animate-fade-in-up delay-100">Ismail Ibrahim Mensah</h1>
+                <p class="text-lg md:text-2xl mb-4 animate-fade-in-up delay-200">A passionate <span id="typing-text" class="font-semibold"></span><span class="typing-cursor">|</span></p>
+                <a href="#contact" class="bg-white text-[#fa7b00] hover:bg-[#ececec] px-6 py-2 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 shadow-lg animate-fade-in-up delay-300">
                     <i class="fas fa-handshake mr-2"></i> Hire Me
                 </a>
             </div>
         </section>
 
-        <section id="about" class="py-16 md:py-24 bg-white rounded-xl shadow-lg mx-4 md:mx-auto max-w-6xl -mt-12 relative z-10 p-6 md:p-12 animate-fade-in-up delay-400">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center animate-fade-in-up">About Me</h2>
-                <div class="flex flex-col md:flex-row items-center md:space-x-8">
-                    <div class="md:w-1/3 mb-8 md:mb-0 animate-fade-in-up delay-100">
-                        <img src="/assets/images/Main1.jpg" alt="Ismail Ibrahim Mensah About Image" loading="lazy" class="rounded-lg shadow-xl w-full h-auto object-cover transform transition duration-500 hover:scale-105">
+        <section id="about" class="bg-[#F1EEE4] about-section relative z-10 animate-fade-in-up delay-400">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center md:space-x-4">
+                    <div class="md:w-1/3 mb-4 md:mb-0 animate-fade-in-up delay-100">
+                        <img src="assets/images/Main1.jpg" alt="Ismail Ibrahim Mensah About Image" loading="lazy" class="rounded-lg shadow-xl w-full h-auto object-cover transform transition duration-500 hover:scale-105">
                     </div>
-                    <div class="md:w-2/3 text-lg text-gray-700 leading-relaxed animate-fade-in-up delay-200">
-                        <p class="mb-4">
+                    <div class="md:w-2/3 text-lg text-[#100C24] leading-relaxed animate-fade-in-up delay-200">
+                        <p class="mb-2">
                             Hello! I'm Ismail Ibrahim Mensah, a versatile professional with a strong foundation in software development, a keen eye for design, and a flair for compelling writing. My journey is fueled by a passion for creating impactful digital experiences and communicating complex ideas clearly.
                         </p>
-                        <p class="mb-4">
+                        <p class="mb-2">
                             Currently, I am pursuing a Bachelor's Degree in Information Technology at Akenten Appiah-Menka University of Skills Training, Entrepreneurship, and Development, with an expected graduation in 2027. This academic pursuit complements my practical skills, allowing me to blend theoretical knowledge with real-world application.
                         </p>
-                        <p class="mb-4">
+                        <p class="mb-2">
                             I thrive on challenges that push me to learn and innovate, constantly seeking to improve my craft in all three domains. Whether it's crafting elegant code, designing intuitive user interfaces, or articulating thoughts through written content, I am dedicated to delivering high-quality results.
                         </p>
-                        <div class="mt-8 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg shadow-inner">
-                            <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Personal Details</h3>
-                            <ul class="list-none space-y-2 text-gray-700 dark:text-gray-300">
-                                <li class="flex items-center"><i class="fas fa-map-marker-alt text-blue-500 mr-3"></i> <strong>Location:</strong> Mankessim, Central Region, Ghana</li>
-                                <li class="flex items-center"><i class="fas fa-language text-blue-500 mr-3"></i> <strong>Languages:</strong> English (Proficient), Twi (Proficient), Arabic (Intermediate)</li>
+                        <div class="mt-4 about-inner-card bg-[#ececec] dark:bg-[#4a4643] rounded-lg shadow-inner">
+                            <h3 class="text-xl font-semibold text-[#100C24] dark:text-white mb-2">Personal Details</h3>
+                            <ul class="list-none space-y-1 text-[#100C24] dark:text-[#e0e0e0]">
+                                <li class="flex items-center"><i class="fas fa-map-marker-alt text-[#fa7b00] mr-2"></i> <strong>Location:</strong> Mankessim, Central Region, Ghana</li>
+                                <li class="flex items-center"><i class="fas fa-language text-[#fa7b00] mr-2"></i> <strong>Languages:</strong> English (Proficient), Twi (Proficient), Arabic (Intermediate)</li>
                             </ul>
                         </div>
                     </div>
@@ -110,109 +113,109 @@
             </div>
         </section>
 
-        <section id="skills" class="py-16 md:py-24 bg-gray-100 animate-fade-in-up delay-500">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center animate-fade-in-up">My Skills</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-100">
-                        <i class="fab fa-react text-blue-500 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">React.js <span class="text-blue-600 text-sm font-bold ml-1">(70%)</span></h3>
-                        <p class="text-gray-700 text-sm">Intermediate proficiency in building dynamic, single-page applications with reusable components. (e.g., **Veggie Grocery app**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-blue-600 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 70%;"></div>
+        <section id="skills" class="bg-[#F1EEE4] animate-fade-in-up delay-500">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">My Skills</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-100">
+                        <i class="fab fa-react text-[#00ADB5] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">React.js <span class="text-[#00ADB5] text-sm font-bold ml-1">(70%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Intermediate proficiency in building dynamic, single-page applications with reusable components. (e.g., **Veggie Grocery app**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-react" style="--progress-width: 70%;"></div>
                         </div>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-200">
-                        <i class="fab fa-js-square text-yellow-500 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">JavaScript <span class="text-yellow-600 text-sm font-bold ml-1">(85%)</span></h3>
-                        <p class="text-gray-700 text-sm">Strong command of modern JavaScript (ES6+) for interactive web experiences and backend logic. (e.g., **Weather Dashboard API calls**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-yellow-600 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 85%;"></div>
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-200">
+                        <i class="fab fa-js-square text-[#4299E1] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">JavaScript <span class="text-[#4299E1] text-sm font-bold ml-1">(85%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Strong command of modern JavaScript (ES6+) for interactive web experiences and backend logic. (e.g., **Weather Dashboard API calls**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-js" style="--progress-width: 85%;"></div>
                         </div>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-300">
-                        <i class="fab fa-html5 text-orange-500 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">HTML & CSS <span class="text-orange-600 text-sm font-bold ml-1">(90%)</span></h3>
-                        <p class="text-gray-700 text-sm">Expertise in semantic HTML and crafting responsive, visually appealing designs with modern CSS techniques. (e.g., **This portfolio's responsive layout**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-orange-600 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 90%;"></div>
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-300">
+                        <i class="fab fa-html5 text-[#48BB78] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">HTML & CSS <span class="text-[#48BB78] text-sm font-bold ml-1">(90%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Expertise in semantic HTML and crafting responsive, visually appealing designs with modern CSS techniques. (e.g., **This portfolio's responsive layout**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-html-css" style="--progress-width: 90%;"></div>
                         </div>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-400">
-                        <i class="fas fa-wind text-teal-500 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Tailwind CSS <span class="text-teal-600 text-sm font-bold ml-1">(75%)</span></h3>
-                        <p class="text-gray-700 text-sm">Intermediate proficiency in utility-first CSS framework for rapid and consistent UI development. (e.g., **Styled Veggie Grocery app**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-teal-600 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 75%;"></div>
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-400">
+                        <i class="fas fa-wind text-[#9F7AEA] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">Tailwind CSS <span class="text-[#9F7AEA] text-sm font-bold ml-1">(75%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Intermediate proficiency in utility-first CSS framework for rapid and consistent UI development. (e.g., **Styled Veggie Grocery app**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-tailwind" style="--progress-width: 75%;"></div>
                         </div>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-500">
-                        <i class="fas fa-sliders-h text-purple-500 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Swiper.js <span class="text-purple-600 text-sm font-bold ml-1">(65%)</span></h3>
-                        <p class="text-gray-700 text-sm">Experience implementing modern, touch-enabled carousels and sliders for engaging content display. (e.g., **Projects & Articles carousels**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-purple-600 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 65%;"></div>
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-500">
+                        <i class="fas fa-sliders-h text-[#F6AD55] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">Swiper.js <span class="text-[#F6AD55] text-sm font-bold ml-1">(65%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Experience implementing modern, touch-enabled carousels and sliders for engaging content display. (e.g., **Projects & Articles carousels**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-swiper" style="--progress-width: 65%;"></div>
                         </div>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-600">
-                        <i class="fas fa-envelope-open-text text-red-500 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Email.js <span class="text-red-600 text-sm font-bold ml-1">(60%)</span></h3>
-                        <p class="text-gray-700 text-sm">Seamless integration of client-side email sending capabilities into web applications. (e.g., **Order confirmations for Veggie Grocery**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-red-600 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 60%;"></div>
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-600">
+                        <i class="fas fa-envelope-open-text text-[#F56565] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">Email.js <span class="text-[#F56565] text-sm font-bold ml-1">(60%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Seamless integration of client-side email sending capabilities into web applications. (e.g., **Order confirmations for Veggie Grocery**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-emailjs" style="--progress-width: 60%;"></div>
                         </div>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-700">
-                        <i class="fas fa-exchange-alt text-indigo-500 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">API Usage <span class="text-indigo-600 text-sm font-bold ml-1">(80%)</span></h3>
-                        <p class="text-gray-700 text-sm">Proficient in consuming and integrating various RESTful APIs to fetch and display dynamic data. (e.g., **OpenWeatherMap API in Weather Dashboard**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-indigo-600 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 80%;"></div>
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-700">
+                        <i class="fas fa-exchange-alt text-[#805AD5] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">API Usage <span class="text-[#805AD5] text-sm font-bold ml-1">(80%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Proficient in consuming and integrating various RESTful APIs to fetch and display dynamic data. (e.g., **OpenWeatherMap API in Weather Dashboard**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-api" style="--progress-width: 80%;"></div>
                         </div>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-800">
-                        <i class="fas fa-laptop-code text-blue-700 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">TypeScript <span class="text-blue-800 text-sm font-bold ml-1">(30%)</span></h3>
-                        <p class="text-gray-700 text-sm">Beginner-level understanding and application of TypeScript for building more robust and scalable JavaScript applications. (e.g., **Type definitions for project data**)</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 mt-4">
-                            <div class="bg-blue-800 h-2.5 rounded-full progress-bar-fill" style="--progress-width: 30%;"></div>
+                    <div class="bg-white skill-card flex flex-col items-center text-center animate-fade-in-up delay-800">
+                        <i class="fas fa-laptop-code text-[#007ACC] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">TypeScript <span class="text-[#007ACC] text-sm font-bold ml-1">(30%)</span></h3>
+                        <p class="text-[#100C24] text-sm">Beginner-level understanding and application of TypeScript for building more robust and scalable JavaScript applications. (e.g., **Type definitions for project data**)</p>
+                        <div class="w-full bg-[#ececec] rounded-full h-2.5 mt-2">
+                            <div class="h-2.5 rounded-full progress-bar-fill progress-typescript" style="--progress-width: 30%;"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="services" class="py-16 md:py-24 bg-white animate-fade-in-up delay-900">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center animate-fade-in-up">What I Offer</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-100">
-                        <i class="fas fa-code text-blue-600 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Web Development</h3>
-                        <p class="text-gray-700 text-sm">Building responsive, high-performance, and scalable web applications using modern frontend and backend technologies.</p>
-                        <ul class="list-disc list-inside text-gray-600 text-left text-xs mt-4 space-y-1">
+        <section id="services" class="bg-white animate-fade-in-up delay-900">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">What I Offer</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-[#F1EEE4] service-card flex flex-col items-center text-center animate-fade-in-up delay-100">
+                        <i class="fas fa-code text-[#fa7b00] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">Web Development</h3>
+                        <p class="text-[#100C24] text-sm">Building responsive, high-performance, and scalable web applications using modern frontend and backend technologies.</p>
+                        <ul class="list-disc list-inside text-[#100C24] text-left text-xs mt-2 space-y-1">
                             <li>Frontend Development (React, HTML, CSS, JavaScript)</li>
                             <li>Responsive Web Design</li>
                             <li>API Integration</li>
                             <li>Performance Optimization</li>
                         </ul>
                     </div>
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-200">
-                        <i class="fas fa-palette text-purple-600 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">UI/UX Design</h3>
-                        <p class="text-gray-700 text-sm">Crafting intuitive, engaging, and accessible user interfaces that provide seamless user experiences.</p>
-                        <ul class="list-disc list-inside text-gray-600 text-left text-xs mt-4 space-y-1">
+                    <div class="bg-[#F1EEE4] service-card flex flex-col items-center text-center animate-fade-in-up delay-200">
+                        <i class="fas fa-palette text-[#fa7b00] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">UI/UX Design</h3>
+                        <p class="text-[#100C24] text-sm">Crafting intuitive, engaging, and accessible user interfaces that provide seamless user experiences.</p>
+                        <ul class="list-disc list-inside text-[#100C24] text-left text-xs mt-2 space-y-1">
                             <li>User Research & Wireframing</li>
                             <li>Prototyping & Usability Testing</li>
                             <li>Visual Design & Branding</li>
                             <li>Accessibility Design</li>
                         </ul>
                     </div>
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in-up delay-300">
-                        <i class="fas fa-pen-nib text-green-600 text-5xl mb-4"></i>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Content Writing & Strategy</h3>
-                        <p class="text-gray-700 text-sm">Producing clear, compelling, and SEO-friendly content, from technical articles to engaging blog posts.</p>
-                        <ul class="list-disc list-inside text-gray-600 text-left text-xs mt-4 space-y-1">
+                    <div class="bg-[#F1EEE4] service-card flex flex-col items-center text-center animate-fade-in-up delay-300">
+                        <i class="fas fa-pen-nib text-[#fa7b00] text-5xl mb-2"></i>
+                        <h3 class="text-xl font-semibold text-[#100C24] mb-1">Content Writing & Strategy</h3>
+                        <p class="text-[#100C24] text-sm">Producing clear, compelling, and SEO-friendly content, from technical articles to engaging blog posts.</p>
+                        <ul class="list-disc list-inside text-[#100C24] text-left text-xs mt-2 space-y-1">
                             <li>Technical Documentation</li>
                             <li>Blog Post & Article Writing</li>
                             <li>Website Copywriting</li>
@@ -223,138 +226,138 @@
             </div>
         </section>
 
-        <section id="projects" class="py-16 md:py-24 bg-gray-100 animate-fade-in-up delay-1000">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center animate-fade-in-up">Featured Projects</h2>
+        <section id="projects" class="bg-[#F1EEE4] animate-fade-in-up delay-1000">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">Featured Projects</h2>
                 <div class="swiper projects-swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <img src="/assets/images/veggie-banner.png" alt="Veggie Grocery React App Screenshot" loading="lazy" class="w-full h-48 object-cover">
-                            <div class="p-6 flex-grow flex flex-col">
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Veggie Grocery (React App)</h3>
-                                <p class="text-gray-700 text-sm mb-4 flex-grow">A modern React application for Browse and purchasing fresh vegetables, featuring a dynamic shopping cart and confirmation emails.</p>
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">React</span>
-                                    <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Tailwind CSS</span>
-                                    <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Email.js</span>
+                        <div class="swiper-slide bg-white project-card flex flex-col">
+                            <img src="assets/images/veggie-banner.png" alt="Veggie Grocery React App Screenshot" loading="lazy" class="w-full h-48 object-cover">
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-xl font-semibold text-[#100C24] mb-1">Veggie Grocery (React App)</h3>
+                                <p class="text-[#100C24] text-sm mb-2 flex-grow">A modern React application for browsing and purchasing fresh vegetables, featuring a dynamic shopping cart and confirmation emails.</p>
+                                <div class="flex flex-wrap gap-1 mb-2">
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">React</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Tailwind CSS</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Email.js</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-auto">
-                                    <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                                    <button class="text-gray-600 hover:text-gray-800 text-sm view-details-button" data-project-id="project1">View Details <i class="fas fa-info-circle ml-1"></i></button>
+                                    <a href="https://veggie-nine.vercel.app/" class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                                    <button class="text-[#100C24] hover:text-[#fa7b00] text-sm view-details-button" data-project-id="project1">View Details <i class="fas fa-info-circle ml-1"></i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <img src="/assets/images/logo.png" alt="Personal Blog Platform Screenshot" loading="lazy" class="w-full h-48 object-cover">
-                            <div class="p-6 flex-grow flex flex-col">
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Personal Blog Platform</h3>
-                                <p class="text-gray-700 text-sm mb-4 flex-grow">A content management system for blogging, featuring rich text editing and user comments.</p>
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded-full">JavaScript</span>
-                                    <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">HTML & CSS</span>
-                                    <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">API Usage</span>
+                        <div class="swiper-slide bg-white project-card flex flex-col">
+                            <img src="https://placehold.co/600x400/FA7B00/FFFFFF?text=Personal+Blog" alt="Personal Blog Platform Screenshot" loading="lazy" class="w-full h-48 object-cover">
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-xl font-semibold text-[#100C24] mb-1">Personal Blog Platform</h3>
+                                <p class="text-[#100C24] text-sm mb-2 flex-grow">A content management system for blogging, featuring rich text editing and user comments.</p>
+                                <div class="flex flex-wrap gap-1 mb-2">
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">JavaScript</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">HTML & CSS</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">API Usage</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-auto">
-                                    <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                                    <button class="text-gray-600 hover:text-gray-800 text-sm view-details-button" data-project-id="project2">View Details <i class="fas fa-info-circle ml-1"></i></button>
+                                    <a href="#" class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                                    <button class="text-[#100C24] hover:text-[#fa7b00] text-sm view-details-button" data-project-id="project2">View Details <i class="fas fa-info-circle ml-1"></i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <img src="https://placehold.co/600x400/D4EDDA/333333?text=Weather+App" alt="Weather Dashboard Screenshot" loading="lazy" class="w-full h-48 object-cover">
-                            <div class="p-6 flex-grow flex flex-col">
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Weather Dashboard</h3>
-                                <p class="text-gray-700 text-sm mb-4 flex-grow">An interactive weather application fetching real-time data from a third-party API.</p>
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="bg-pink-100 text-pink-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Tailwind CSS</span>
-                                    <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded-full">API Usage</span>
-                                    <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded-full">JavaScript</span>
+                        <div class="swiper-slide bg-white project-card flex flex-col">
+                            <img src="https://placehold.co/600x400/FA7B00/FFFFFF?text=Weather+App" alt="Weather Dashboard Screenshot" loading="lazy" class="w-full h-48 object-cover">
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-xl font-semibold text-[#100C24] mb-1">Weather Dashboard</h3>
+                                <p class="text-[#100C24] text-sm mb-2 flex-grow">An interactive weather application fetching real-time data from a third-party API.</p>
+                                <div class="flex flex-wrap gap-1 mb-2">
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Tailwind CSS</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">API Usage</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">JavaScript</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-auto">
-                                    <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                                    <button class="text-gray-600 hover:text-gray-800 text-sm view-details-button" data-project-id="project3">View Details <i class="fas fa-info-circle ml-1"></i></button>
+                                    <a href="#" class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                                    <button class="text-[#100C24] hover:text-[#fa7b00] text-sm view-details-button" data-project-id="project3">View Details <i class="fas fa-info-circle ml-1"></i></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <img src="https://placehold.co/600x400/C3E6CB/333333?text=Portfolio+Site" alt="Portfolio Website Screenshot" loading="lazy" class="w-full h-48 object-cover">
-                            <div class="p-6 flex-grow flex flex-col">
-                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Portfolio Website (This one!)</h3>
-                                <p class="text-gray-700 text-sm mb-4 flex-grow">A personal portfolio showcasing development, design, and writing skills.</p>
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded-full">HTML</span>
-                                    <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Tailwind CSS</span>
-                                    <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded-full">JavaScript</span>
-                                    <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Swiper.js</span>
+                        <div class="swiper-slide bg-white project-card flex flex-col">
+                            <img src="assets/images/logo.png" alt="Portfolio Website Screenshot" loading="lazy" class="w-full h-48 object-cover">
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-xl font-semibold text-[#100C24] mb-1">Portfolio Website (This one!)</h3>
+                                <p class="text-[#100C24] text-sm mb-2 flex-grow">A personal portfolio showcasing development, design, and writing skills.</p>
+                                <div class="flex flex-wrap gap-1 mb-2">
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">HTML</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Tailwind CSS</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">JavaScript</span>
+                                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Swiper.js</span>
                                 </div>
                                 <div class="flex justify-between items-center mt-auto">
-                                    <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                                    <button class="text-gray-600 hover:text-gray-800 text-sm view-details-button" data-project-id="project4">View Details <i class="fas fa-info-circle ml-1"></i></button>
+                                    <a href="#" class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                                    <button class="text-[#100C24] hover:text-[#fa7b00] text-sm view-details-button" data-project-id="project4">View Details <i class="fas fa-info-circle ml-1"></i></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="swiper-button-next text-blue-600"></div>
-                    <div class="swiper-button-prev text-blue-600"></div>
+                    <div class="swiper-button-next text-[#fa7b00]"></div>
+                    <div class="swiper-button-prev text-[#fa7b00]"></div>
                 </div>
             </div>
         </section>
 
-        <section id="articles" class="py-16 md:py-24 bg-gray-100 animate-fade-in-up delay-1100">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center animate-fade-in-up">Articles & Insights</h2>
+        <section id="articles" class="bg-[#F1EEE4] animate-fade-in-up delay-1100">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">Articles & Insights</h2>
                 <div class="swiper articles-swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide bg-white p-6 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">The World of Technology: A Glimpse into the Future</h3>
-                            <p class="text-gray-700 text-sm mb-4 flex-grow">Technology is not just about gadgets and code; it's about shaping our future. From AI to quantum computing, explore the trends defining tomorrow.</p>
-                            <button class="text-blue-600 hover:text-blue-800 font-semibold text-sm mt-auto view-details-button" data-project-id="article-technology">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
+                        <div class="swiper-slide bg-white article-card flex flex-col">
+                            <h3 class="text-xl font-semibold text-[#100C24] mb-1">The World of Technology: A Glimpse into the Future</h3>
+                            <p class="text-[#100C24] text-sm mb-2 flex-grow">Technology is not just about gadgets and code; it's about shaping our future. From AI to quantum computing, explore the trends defining tomorrow.</p>
+                            <button class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm mt-auto view-details-button" data-project-id="article-technology">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
                         </div>
-                        <div class="swiper-slide bg-white p-6 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Designing for Accessibility: A Practical Guide</h3>
-                            <p class="text-gray-700 text-sm mb-4 flex-grow">A comprehensive guide on implementing accessible design principles to create inclusive digital experiences for all users.</p>
-                            <button class="text-blue-600 hover:text-blue-800 font-semibold text-sm mt-auto view-details-button" data-project-id="article-accessibility">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
+                        <div class="swiper-slide bg-white article-card flex flex-col">
+                            <h3 class="text-xl font-semibold text-[#100C24] mb-1">Designing for Accessibility: A Practical Guide</h3>
+                            <p class="text-[#100C24] text-sm mb-2 flex-grow">A comprehensive guide on implementing accessible design principles to create inclusive digital experiences for all users.</p>
+                            <button class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm mt-auto view-details-button" data-project-id="article-accessibility">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
                         </div>
-                        <div class="swiper-slide bg-white p-6 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Storytelling in UI/UX: Engaging Users Through Narrative</h3>
-                            <p class="text-gray-700 text-sm mb-4 flex-grow">How narrative techniques can be leveraged in user interface and user experience design to create more memorable and engaging products.</p>
-                            <button class="text-blue-600 hover:text-blue-800 font-semibold text-sm mt-auto view-details-button" data-project-id="article-storytelling">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
+                        <div class="swiper-slide bg-white article-card flex flex-col">
+                            <h3 class="text-xl font-semibold text-[#100C24] mb-1">Storytelling in UI/UX: Engaging Users Through Narrative</h3>
+                            <p class="text-[#100C24] text-sm mb-2 flex-grow">How narrative techniques can be leveraged in user interface and user experience design to create more memorable and engaging products.</p>
+                            <button class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm mt-auto view-details-button" data-project-id="article-storytelling">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
                         </div>
-                        <div class="swiper-slide bg-white p-6 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1 flex flex-col">
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">The Power of Clean Code: A Developer's Perspective</h3>
-                            <p class="text-gray-700 text-sm mb-4 flex-grow">Discussing the importance of writing clean, maintainable, and readable code for long-term project success and team collaboration.</p>
-                            <button class="text-blue-600 hover:text-blue-800 font-semibold text-sm mt-auto view-details-button" data-project-id="article-clean-code">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
+                        <div class="swiper-slide bg-white article-card flex flex-col">
+                            <h3 class="text-xl font-semibold text-[#100C24] mb-1">The Power of Clean Code: A Developer's Perspective</h3>
+                            <p class="text-[#100C24] text-sm mb-2 flex-grow">Discussing the importance of writing clean, maintainable, and readable code for long-term project success and team collaboration.</p>
+                            <button class="text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm mt-auto view-details-button" data-project-id="article-clean-code">Read Article <i class="fas fa-external-link-alt ml-1"></i></button>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="swiper-button-next text-blue-600"></div>
-                    <div class="swiper-button-prev text-blue-600"></div>
+                    <div class="swiper-button-next text-[#fa7b00]"></div>
+                    <div class="swiper-button-prev text-[#fa7b00]"></div>
                 </div>
             </div>
         </section>
 
-        <section id="testimonials" class="py-16 md:py-24 bg-white animate-fade-in-up delay-1200">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center animate-fade-in-up">What People Say</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
-                        <p class="text-gray-700 italic mb-4">"Ismail is an incredibly talented developer who consistently delivers high-quality work. His attention to detail and problem-solving skills are exceptional."</p>
+        <section id="testimonials" class="bg-white animate-fade-in-up delay-1200">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">What People Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-[#F1EEE4] testimonial-card">
+                        <p class="text-[#100C24] italic mb-2">"Ismail is an incredibly talented developer who consistently delivers high-quality work. His attention to detail and problem-solving skills are exceptional."</p>
                         <div class="flex items-center">
-                            <img src="https://placehold.co/50x50/A7D9F7/333333?text=JD" alt="Client Photo" loading="lazy" class="rounded-full w-12 h-12 mr-4 object-cover">
+                            <img src="https://placehold.co/50x50/FA7B00/FFFFFF?text=JD" alt="Client Photo" loading="lazy" class="rounded-full w-12 h-12 mr-2 object-cover">
                             <div>
-                                <p class="font-semibold text-gray-900">Jane Doe</p>
-                                <p class="text-gray-600 text-sm">CEO, Creative Solutions</p>
+                                <p class="font-semibold text-[#100C24]">Jane Doe</p>
+                                <p class="text-[#100C24] text-sm">CEO, Creative Solutions</p>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
-                        <p class="text-gray-700 italic mb-4">"Working with Ismail on design projects has been a pleasure. He brings fresh ideas and a deep understanding of user experience to every task."</p>
+                    <div class="bg-[#F1EEE4] testimonial-card">
+                        <p class="text-[#100C24] italic mb-2">"Working with Ismail on design projects has been a pleasure. He brings fresh ideas and a deep understanding of user experience to every task."</p>
                         <div class="flex items-center">
-                            <img src="https://placehold.co/50x50/F7D9A7/333333?text=SM" alt="Client Photo" loading="lazy" class="rounded-full w-12 h-12 mr-4 object-cover">
+                            <img src="https://placehold.co/50x50/FA7B00/FFFFFF?text=SM" alt="Client Photo" loading="lazy" class="rounded-full w-12 h-12 mr-2 object-cover">
                             <div>
-                                <p class="font-semibold text-gray-900">Sam Miller</p>
-                                <p class="text-gray-600 text-sm">Lead Designer, Innovate Studio</p>
+                                <p class="font-semibold text-[#100C24]">Sam Miller</p>
+                                <p class="text-[#100C24] text-sm">Lead Designer, Innovate Studio</p>
                             </div>
                         </div>
                     </div>
@@ -362,44 +365,44 @@
             </div>
         </section>
 
-        <section id="resume" class="py-16 md:py-24 bg-gray-100 text-center animate-fade-in-up delay-1300">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8 animate-fade-in-up">My Professional Resume</h2>
-                <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto animate-fade-in-up delay-100">
+        <section id="resume" class="bg-[#F1EEE4] text-center animate-fade-in-up delay-1300">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 animate-fade-in-up">My Professional Resume</h2>
+                <p class="text-lg text-[#100C24] mb-4 max-w-2xl mx-auto animate-fade-in-up delay-100">
                     Download my latest resume to get a comprehensive overview of my professional experience, skills, and achievements.
                 </p>
-                <a href="https://example.com/ismail_ibrahim_mensah_resume.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg animate-fade-in-up delay-200">
-                    <i class="fas fa-download mr-3"></i> Download Resume
+                <a href="https://example.com/ismail_ibrahim_mensah_resume.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-[#fa7b00] text-white px-6 py-2 rounded-full text-lg font-semibold hover:bg-[#d46a00] transition duration-300 ease-in-out transform hover:scale-105 shadow-lg animate-fade-in-up delay-200">
+                    <i class="fas fa-download mr-2"></i> Download Resume
                 </a>
             </div>
         </section>
 
-        <section id="certifications" class="py-16 md:py-24 bg-white animate-fade-in-up delay-1400">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center animate-fade-in-up">Certifications</h2>
+        <section id="certifications" class="bg-white animate-fade-in-up delay-1400">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">Certifications</h2>
                 <div class="flex justify-center">
-                    <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 text-center max-w-md animate-fade-in-up delay-100">
-                        <img src="https://placehold.co/100x100/4285F4/FFFFFF?text=G" alt="Google Logo" loading="lazy" class="mx-auto mb-4 w-24 h-24 object-contain">
-                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Google IT Support Certification</h3>
-                        <p class="text-gray-700 text-md">
+                    <div class="bg-[#F1EEE4] certification-card text-center max-w-md animate-fade-in-up delay-100">
+                        <img src="assets/images/badge_IT_Support.png" alt="Google Logo" loading="lazy" class="mx-auto mb-2 w-24 h-24 object-contain">
+                        <h3 class="text-2xl font-semibold text-[#100C24] mb-1">Google IT Support Certification</h3>
+                        <p class="text-[#100C24] text-md">
                             Completed Google's comprehensive program covering troubleshooting, customer service, networking, operating systems, and system administration.
                         </p>
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-semibold text-sm">View Credential <i class="fas fa-external-link-alt ml-1"></i></a>
+                        <a href="https://www.credly.com/badges/3b244d7f-b96f-4f3b-ba6d-309cfdb09ab0/linked_in_profile" target="_blank" rel="noopener noreferrer" class="mt-2 inline-block text-[#fa7b00] hover:text-[#d46a00] font-semibold text-sm">View Credential <i class="fas fa-external-link-alt ml-1"></i></a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="education" class="py-16 md:py-24 bg-gray-100 animate-fade-in-up delay-1500">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center animate-fade-in-up">Education</h2>
+        <section id="education" class="bg-[#F1EEE4] animate-fade-in-up delay-1500">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#100C24] mb-4 text-center animate-fade-in-up">Education</h2>
                 <div class="flex justify-center">
-                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 text-center max-w-lg animate-fade-in-up delay-100">
-                        <i class="fas fa-graduation-cap text-blue-600 text-5xl mb-4"></i>
-                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Bachelor's Degree in Information Technology</h3>
-                        <p class="text-gray-700 text-lg mb-2">Akenten Appiah-Menka University of Skills Training, Entrepreneurship, and Development</p>
-                        <p class="text-gray-500 text-md">Expected Graduation: 2027</p>
-                        <ul class="list-disc list-inside text-gray-700 text-left mt-4 space-y-1">
+                    <div class="bg-white education-card text-center max-w-lg animate-fade-in-up delay-100">
+                        <i class="fas fa-graduation-cap text-[#fa7b00] text-5xl mb-2"></i>
+                        <h3 class="text-2xl font-semibold text-[#100C24] mb-1">Bachelor's Degree in Information Technology</h3>
+                        <p class="text-[#100C24] text-lg mb-1">Akenten Appiah-Menka University of Skills Training, Entrepreneurship, and Development</p>
+                        <p class="text-[#100C24] text-md">Expected Graduation: 2027</p>
+                        <ul class="list-disc list-inside text-[#100C24] text-left mt-2 space-y-1">
                             <li>Core IT principles and practices</li>
                             <li>Software Development Methodologies</li>
                             <li>Database Management Systems</li>
@@ -411,69 +414,69 @@
             </div>
         </section>
 
-        <section id="hire-me-cta" class="py-16 md:py-24 bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-center shadow-lg animate-fade-in-up delay-1600">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-5xl font-bold mb-6 animate-fade-in-up">Ready to bring your ideas to life?</h2>
-                <p class="text-lg md:text-xl mb-10 max-w-3xl mx-auto animate-fade-in-up delay-100">
+        <section id="hire-me-cta" class="gradient-hero text-white text-center shadow-lg animate-fade-in-up delay-1600">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-5xl font-bold mb-2 animate-fade-in-up">Ready to bring your ideas to life?</h2>
+                <p class="text-lg md:text-xl mb-4 max-w-3xl mx-auto animate-fade-in-up delay-100">
                     Whether you need a skilled developer, a creative designer, or an insightful writer, I'm here to help you achieve your goals. Let's build something amazing together!
                 </p>
-                <a href="#contact" class="bg-white text-blue-600 hover:bg-blue-100 px-10 py-4 rounded-full text-xl font-bold transition duration-300 ease-in-out transform hover:scale-110 shadow-xl animate-fade-in-up delay-200">
-                    <i class="fas fa-briefcase mr-3"></i> Hire Ismail
+                <a href="#contact" class="bg-white text-[#fa7b00] hover:bg-[#ececec] px-8 py-3 rounded-full text-xl font-bold transition duration-300 ease-in-out transform hover:scale-110 shadow-xl animate-fade-in-up delay-200">
+                    <i class="fas fa-briefcase mr-2"></i> Hire Ismail
                 </a>
             </div>
         </section>
 
-        <section id="contact" class="py-16 md:py-24 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-t-3xl shadow-xl animate-fade-in-up delay-1700">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8 animate-fade-in-up">Get in Touch</h2>
-                <p class="text-lg md:text-xl mb-12 max-w-3xl mx-auto animate-fade-in-up delay-100">
+        <section id="contact" class="gradient-contact text-white rounded-t-3xl shadow-xl animate-fade-in-up delay-1700">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 animate-fade-in-up">Get in Touch</h2>
+                <p class="text-lg md:text-xl mb-6 max-w-3xl mx-auto animate-fade-in-up delay-100">
                     I'm always excited to discuss new projects, creative ideas, or opportunities to contribute. Feel free to send me a message!
                 </p>
-                <form id="contact-form" class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg text-gray-800 animate-fade-in-up delay-200">
-                    <div class="mb-6 text-left">
-                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Your Name</label>
-                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200" placeholder="John Doe" required>
+                <form id="contact-form" class="max-w-xl mx-auto bg-white contact-form text-[#100C24] animate-fade-in-up delay-200">
+                    <div class="mb-4 text-left">
+                        <label for="name" class="block text-[#100C24] text-sm font-bold mb-1">Your Name</label>
+                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-[#100C24] leading-tight focus:outline-none focus:ring-2 focus:ring-[#fa7b00] transition duration-200" placeholder="John Doe" required>
                     </div>
-                    <div class="mb-6 text-left">
-                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Your Email</label>
-                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200" placeholder="john.doe@example.com" required>
+                    <div class="mb-4 text-left">
+                        <label for="email" class="block text-[#100C24] text-sm font-bold mb-1">Your Email</label>
+                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-[#100C24] leading-tight focus:outline-none focus:ring-2 focus:ring-[#fa7b00] transition duration-200" placeholder="john.doe@example.com" required>
                     </div>
-                    <div class="mb-6 text-left">
-                        <label for="subject" class="block text-gray-700 text-sm font-bold mb-2">Subject</label>
-                        <input type="text" id="subject" name="subject" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200" placeholder="Inquiry about a project..." required>
+                    <div class="mb-4 text-left">
+                        <label for="subject" class="block text-[#100C24] text-sm font-bold mb-1">Subject</label>
+                        <input type="text" id="subject" name="subject" class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-[#100C24] leading-tight focus:outline-none focus:ring-2 focus:ring-[#fa7b00] transition duration-200" placeholder="Inquiry about a project..." required>
                     </div>
-                    <div class="mb-8 text-left">
-                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
-                        <textarea id="message" name="message" rows="6" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200" placeholder="Type your message here..." required></textarea>
+                    <div class="mb-4 text-left">
+                        <label for="message" class="block text-[#100C24] text-sm font-bold mb-1">Message</label>
+                        <textarea id="message" name="message" rows="4" class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-[#100C24] leading-tight focus:outline-none focus:ring-2 focus:ring-[#fa7b00] transition duration-200" placeholder="Type your message here..." required></textarea>
                     </div>
-                    <button type="submit" id="submit-button" class="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg relative">
+                    <button type="submit" id="submit-button" class="bg-[#fa7b00] text-white px-6 py-2 rounded-full text-lg font-semibold hover:bg-[#d46a00] transition duration-300 ease-in-out transform hover:scale-105 shadow-lg relative">
                         <span class="button-text">
                             <i class="fas fa-paper-plane mr-2"></i> Send Message
                         </span>
                         <div class="button-spinner hidden absolute inset-0 flex items-center justify-center"></div>
                     </button>
-                    <div id="contact-form-message" class="hidden mt-4"></div>
+                    <div id="contact-form-message" class="hidden mt-2"></div>
                 </form>
 
-                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mt-12">
-                    <a href="mailto:ismailmensah055@gmail.com" class="flex items-center text-white hover:text-blue-200 transition duration-300 text-lg md:text-xl" aria-label="Email Ismail Mensah">
-                        <i class="fas fa-envelope mr-3 text-2xl"></i> ismailmensah055@gmail.com
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-4 mt-6">
+                    <a href="mailto:ismailmensah055@gmail.com" class="flex items-center text-white hover:text-[#ececec] transition duration-300 text-lg md:text-xl" aria-label="Email Ismail Mensah">
+                        <i class="fas fa-envelope mr-2 text-xl"></i> ismailmensah055@gmail.com
                     </a>
-                    <a href="tel:+233536478673" class="flex items-center text-white hover:text-blue-200 transition duration-300 text-lg md:text-xl" aria-label="Call Ismail Mensah">
-                        <i class="fas fa-phone mr-3 text-2xl"></i> +233 53 647 8673
+                    <a href="tel:+233536478673" class="flex items-center text-white hover:text-[#ececec] transition duration-300 text-lg md:text-xl" aria-label="Call Ismail Mensah">
+                        <i class="fas fa-phone mr-2 text-xl"></i> +233 53 647 8673
                     </a>
-                    <a href="https://wa.me/233558852609" target="_blank" rel="noopener noreferrer" class="flex items-center text-white hover:text-blue-200 transition duration-300 text-lg md:text-xl" aria-label="WhatsApp Ismail Mensah">
-                        <i class="fab fa-whatsapp mr-3 text-2xl"></i> +233 55 885 2609
+                    <a href="https://wa.me/233558852609" target="_blank" rel="noopener noreferrer" class="flex items-center text-white hover:text-[#ececec] transition duration-300 text-lg md:text-xl" aria-label="WhatsApp Ismail Mensah">
+                        <i class="fab fa-whatsapp mr-2 text-xl"></i> +233 55 885 2609
                     </a>
                 </div>
-                <div class="flex justify-center space-x-6 mt-8">
-                    <a href="https://linkedin.com/in/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-blue-200 transition duration-300 text-3xl" aria-label="LinkedIn Profile">
+                <div class="flex justify-center space-x-4 mt-4">
+                    <a href="https://www.linkedin.com/in/ismail-ibrahim-mensah-81a920312" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#ececec] transition duration-300 text-2xl" aria-label="LinkedIn Profile">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-blue-200 transition duration-300 text-3xl" aria-label="GitHub Profile">
+                    <a href="https://github.com/DISCIPLINE55" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#ececec] transition duration-300 text-2xl" aria-label="GitHub Profile">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://twitter.com/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-blue-200 transition duration-300 text-3xl" aria-label="Twitter Profile">
+                    <a href="https://twitter.com/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#ececec] transition duration-300 text-2xl" aria-label="Twitter Profile">
                         <i class="fab fa-twitter"></i>
                     </a>
                     </div>
@@ -481,40 +484,40 @@
         </section>
     </main>
 
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+    <footer class="bg-[#34302c] text-white footer-section">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left">
             <div>
-                <h4 class="font-bold text-lg mb-4">Ismail Mensah</h4>
-                <p class="text-sm text-gray-400">A passionate Developer, Designer, and Writer dedicated to creating impactful digital experiences.</p>
+                <h4 class="font-bold text-lg mb-2">Ismail Mensah</h4>
+                <p class="text-sm text-white">A passionate Developer, Designer, and Writer dedicated to creating impactful digital experiences.</p>
             </div>
             <div>
-                <h4 class="font-bold text-lg mb-4">Quick Links</h4>
-                <ul class="space-y-2 text-sm">
-                    <li><a href="#about" class="hover:text-blue-400 transition-colors">About Me</a></li>
-                    <li><a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a></li>
-                    <li><a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a></li>
-                    <li><a href="#articles" class="hover:text-blue-400 transition-colors">Articles</a></li>
-                    <li><a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a></li>
+                <h4 class="font-bold text-lg mb-2">Quick Links</h4>
+                <ul class="space-y-1 text-sm">
+                    <li><a href="#about" class="hover:text-[#fa7b00] transition-colors">About Me</a></li>
+                    <li><a href="#skills" class="hover:text-[#fa7b00] transition-colors">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-[#fa7b00] transition-colors">Projects</a></li>
+                    <li><a href="#articles" class="hover:text-[#fa7b00] transition-colors">Articles</a></li>
+                    <li><a href="#contact" class="hover:text-[#fa7b00] transition-colors">Contact</a></li>
                 </ul>
             </div>
             <div>
-                <h4 class="font-bold text-lg mb-4">Connect</h4>
-                <div class="flex justify-center md:justify-start space-x-4 mb-4">
-                    <a href="https://linkedin.com/in/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-blue-400 transition-colors text-xl" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-blue-400 transition-colors text-xl" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-blue-400 transition-colors text-xl" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                <h4 class="font-bold text-lg mb-2">Connect</h4>
+                <div class="flex justify-center md:justify-start space-x-2 mb-2">
+                    <a href="https://www.linkedin.com/in/ismail-ibrahim-mensah-81a920312" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#fa7b00] transition-colors text-xl" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/DISCIPLINE55" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#fa7b00] transition-colors text-xl" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/ismailmensah" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#fa7b00] transition-colors text-xl" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
                 </div>
-                <p class="text-sm text-gray-400"><i class="fas fa-envelope mr-2"></i> ismailmensah055@gmail.com</p>
-                <p class="text-sm text-gray-400 mt-1"><i class="fas fa-phone mr-2"></i> +233 53 647 8673</p>
-                <p class="text-sm text-gray-400 mt-1"><i class="fab fa-whatsapp mr-2"></i> +233 55 885 2609</p>
+                <p class="text-sm text-white"><i class="fas fa-envelope mr-1"></i> ismailmensah055@gmail.com</p>
+                <p class="text-sm text-white mt-1"><i class="fas fa-phone mr-1"></i> +233 53 647 8673</p>
+                <p class="text-sm text-white mt-1"><i class="fab fa-whatsapp mr-1"></i> +233 55 885 2609</p>
             </div>
         </div>
-        <div class="container mx-auto px-4 border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+        <div class="container mx-auto border-t border-[#4a4643] footer-bottom text-center text-sm text-white">
             <p>&copy; <span id="current-year"></span> Ismail Ibrahim Mensah. All rights reserved.</p>
-            <p class="mt-2">Crafted with <i class="fas fa-heart text-red-500"></i> for impactful digital experiences.</p>
-            <div class="mt-4 space-x-4">
-                <button class="text-gray-400 hover:text-blue-400 transition-colors text-xs privacy-terms-button" data-modal-id="modal-privacy-policy">Privacy Policy</button>
-                <button class="text-gray-400 hover:text-blue-400 transition-colors text-xs privacy-terms-button" data-modal-id="modal-terms-of-service">Terms of Service</button>
+            <p class="mt-1">Crafted with <i class="fas fa-heart text-red-500"></i> for impactful digital experiences.</p>
+            <div class="mt-2 space-x-2">
+                <button class="text-white hover:text-[#fa7b00] transition-colors text-xs privacy-terms-button" data-modal-id="modal-privacy-policy">Privacy Policy</button>
+                <button class="text-white hover:text-[#fa7b00] transition-colors text-xs privacy-terms-button" data-modal-id="modal-terms-of-service">Terms of Service</button>
             </div>
         </div>
     </footer>
@@ -527,17 +530,17 @@
         <div id="modal-project1" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close project details">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Veggie Grocery - React E-commerce App</h3>
-                <img src="https://placehold.co/700x450/D1E7DD/333333?text=Veggie+Grocery+Screenshot" alt="Veggie Grocery React App Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-4 object-cover">
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Veggie Grocery - React E-commerce App</h3>
+                <img src="assets/images/veggie-banner.png" alt="Veggie Grocery React App Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-2 object-cover">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **The Problem:** Many online grocery experiences are clunky or lack a focus on fresh produce. I aimed to create a **smooth, visually appealing, and user-friendly online platform** specifically for fresh vegetables, making the shopping experience delightful and efficient.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **My Role & Responsibilities:** As the lead developer, I was responsible for the **entire frontend development**, from component architecture to UI/UX implementation. This included designing the product catalog display, managing the shopping cart state, and integrating the Email.js service for order confirmations.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Key Features:**
-                    <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1">
+                    <ul class="list-disc list-inside text-[#100C24] ml-2 space-y-0.5">
                         <li>**Dynamic Product Catalog:** Browse a variety of fresh vegetables with clear images and descriptions.</li>
                         <li>**Interactive Shopping Cart:** Add, remove, and update quantities of items with real-time price updates.</li>
                         <li>**User-Friendly Checkout:** Simplified process leading to order placement.</li>
@@ -545,22 +548,22 @@
                         <li>**Responsive Design:** Optimized for seamless experience across desktop, tablet, and mobile devices.</li>
                     </ul>
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Challenges & Solutions:** One challenge was efficient state management for the shopping cart across different components. I utilized **React's Context API** to provide a global state for the cart, simplifying data flow. Implementing Email.js securely also required careful setup of environment variables and template configuration.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Results/Impact:** The **Veggie Grocery** app provides a fast and intuitive way for users to shop for vegetables online, with the integrated email confirmations adding a layer of professionalism and reliability to the service.
                 </p>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">React.js</span>
-                    <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Tailwind CSS</span>
-                    <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Email.js</span>
-                    <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Context API</span>
-                    <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-2.5 py-0.5 rounded-full">JavaScript (ES6+)</span>
+                <div class="flex flex-wrap gap-1 mb-2">
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">React.js</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Tailwind CSS</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Email.js</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Context API</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">JavaScript (ES6+)</span>
                 </div>
-                <div class="flex justify-start gap-4 mt-4">
-                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-full text-md font-semibold hover:bg-blue-700 transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                    <a href="#" class="bg-gray-200 text-gray-800 px-6 py-2 rounded-full text-md font-semibold hover:bg-gray-300 transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
+                <div class="flex justify-start gap-2 mt-2">
+                    <a href="#" class="bg-[#fa7b00] text-white px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d46a00] transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                    <a href="#" class="bg-[#ececec] text-[#100C24] px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d1d1d1] transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
                 </div>
             </div>
         </div>
@@ -568,17 +571,17 @@
         <div id="modal-project2" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close project details">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Personal Blog Platform Details</h3>
-                <img src="https://placehold.co/700x450/F8D7DA/333333?text=Personal+Blog+Detail" alt="Personal Blog Platform Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-4 object-cover">
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Personal Blog Platform Details</h3>
+                <img src="assets/images/logo.png" alt="Personal Blog Platform Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-2 object-cover">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **The Problem:** Aspiring writers and content creators often struggle with setting up and maintaining a personal blog without extensive technical knowledge. This project aimed to provide a **simple, intuitive, and efficient platform** for them to share their stories and insights.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **My Role & Responsibilities:** I was responsible for developing both the **frontend user interface** and integrating it with a robust **backend API** for content management. This involved creating a dynamic post display, implementing user authentication (for authoring), and building a rich text editor interface.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Key Features:**
-                    <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1">
+                    <ul class="list-disc list-inside text-[#100C24] ml-2 space-y-0.5">
                         <li>**Article Creation & Management:** Intuitive dashboard for authors to write, edit, and publish posts.</li>
                         <li>**Rich Text Editor:** WYSIWYG editor for easy content formatting.</li>
                         <li>**User Comments:** System for readers to leave comments on articles, fostering community engagement.</li>
@@ -586,22 +589,22 @@
                         <li>**Responsive Reading Experience:** Optimized for readability on any device.</li>
                     </ul>
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Challenges & Solutions:** Ensuring secure and efficient API communication was a key challenge. I implemented **token-based authentication** and robust error handling for a reliable experience. Designing a scalable database schema for posts and comments also required careful planning.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Results/Impact:** This blog platform empowers individuals to easily publish their content and engage with their audience, providing a clean and professional space for their digital presence.
                 </p>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-2.5 py-0.5 rounded-full">JavaScript</span>
-                    <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded-full">HTML5</span>
-                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-2.5 py-0.5 rounded-full">CSS3</span>
-                    <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">REST API</span>
-                    <span class="bg-orange-100 text-orange-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Node.js (for Backend)</span>
+                <div class="flex flex-wrap gap-1 mb-2">
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">JavaScript</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">HTML5</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">CSS3</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">REST API</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Node.js (for Backend)</span>
                 </div>
-                <div class="flex justify-start gap-4 mt-4">
-                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-full text-md font-semibold hover:bg-blue-700 transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                    <a href="#" class="bg-gray-200 text-gray-800 px-6 py-2 rounded-full text-md font-semibold hover:bg-gray-300 transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
+                <div class="flex justify-start gap-2 mt-2">
+                    <a href="#" class="bg-[#fa7b00] text-white px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d46a00] transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                    <a href="#" class="bg-[#ececec] text-[#100C24] px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d1d1d1] transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
                 </div>
             </div>
         </div>
@@ -609,17 +612,17 @@
         <div id="modal-project3" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close project details">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Weather Dashboard Details</h3>
-                <img src="https://placehold.co/700x450/D4EDDA/333333?text=Weather+App+Detail" alt="Weather Dashboard Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-4 object-cover">
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Weather Dashboard Details</h3>
+                <img src="https://placehold.co/700x450/FA7B00/FFFFFF?text=Weather+App+Detail" alt="Weather Dashboard Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-2 object-cover">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **The Problem:** Users often need quick, reliable weather information. This project aimed to create an **intuitive and visually clear weather dashboard** that provides both current conditions and a multi-day forecast for any location.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **My Role & Responsibilities:** I was responsible for the **entire frontend development** of this application. This included fetching data from the OpenWeatherMap API, dynamically displaying weather information, handling user input for city search, and designing a responsive layout.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Key Features:**
-                    <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1">
+                    <ul class="list-disc list-inside text-[#100C24] ml-2 space-y-0.5">
                         <li>**Current Weather Data:** Displays temperature, humidity, wind speed, and weather conditions for the selected city.</li>
                         <li>**5-Day Forecast:** Provides a multi-day outlook with daily high/low temperatures and weather icons.</li>
                         <li>**City Search Functionality:** Users can search for weather in any global city.</li>
@@ -627,21 +630,20 @@
                         <li>**Responsive Design:** Optimized for usability across various screen sizes.</li>
                     </ul>
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Challenges & Solutions:** A primary challenge was handling asynchronous API calls and effectively updating the UI based on the fetched data. I used **`async/await`** for clean API interaction and focused on efficient DOM manipulation to ensure a smooth user experience. Error handling for invalid city names was also key.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Results/Impact:** The Weather Dashboard offers users a straightforward and visually engaging tool to quickly check weather conditions, making daily planning easier.
                 </p>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-pink-100 text-pink-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Tailwind CSS</span>
-                    <span class="bg-teal-100 text-teal-800 text-sm font-medium px-2.5 py-0.5 rounded-full">OpenWeather API</span>
-                    <span class="bg-orange-100 text-orange-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Vanilla JavaScript</span>
-                    <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">RESTful Principles</span>
+                <div class="flex flex-wrap gap-1 mb-2">
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Tailwind CSS</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">OpenWeather API</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Vanilla JavaScript</span>
                 </div>
-                <div class="flex justify-start gap-4 mt-4">
-                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-full text-md font-semibold hover:bg-blue-700 transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                    <a href="#" class="bg-gray-200 text-gray-800 px-6 py-2 rounded-full text-md font-semibold hover:bg-gray-300 transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
+                <div class="flex justify-start gap-2 mt-2">
+                    <a href="#" class="bg-[#fa7b00] text-white px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d46a00] transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                    <a href="#" class="bg-[#ececec] text-[#100C24] px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d1d1d1] transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
                 </div>
             </div>
         </div>
@@ -649,45 +651,45 @@
         <div id="modal-project4" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close project details">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Portfolio Website Details (You're here!)</h3>
-                <img src="https://placehold.co/700x450/C3E6CB/333333?text=Portfolio+Detail" alt="Portfolio Website Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-4 object-cover">
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Portfolio Website Details (You're here!)</h3>
+                <img src="assets/images/logo.png" alt="Portfolio Website Detailed Screenshot" loading="lazy" class="w-full h-auto rounded-lg mb-2 object-cover">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **The Problem:** As a multi-talented professional, I needed a central, dynamic space to showcase my skills in development, design, and writing effectively and professionally. The challenge was to create a site that was both visually appealing and highly functional.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **My Role & Responsibilities:** I conceptualized, designed, and developed **every aspect of this portfolio website**. This included the visual layout, responsive behavior, interactive elements (like the typing effect and carousels), and ensuring robust cross-browser compatibility. I personally wrote all the content for projects, skills, and articles.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Key Features:**
-                    <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1">
+                    <ul class="list-disc list-inside text-[#100C24] ml-2 space-y-0.5">
                         <li>**Responsive Design:** Fully optimized for viewing on desktops, tablets, and mobile devices.</li>
                         <li>**Interactive Hero Section:** Dynamic typing animation to immediately convey my core competencies.</li>
                         <li>**Smooth Scrolling & Navigation:** Enhanced user experience for easy section access.</li>
-                        <li>**Project & Article Carousels:** Utilizes Swiper.js for engaging and interactive content Browse.</li>
+                        <li>**Project & Article Carousels:** Utilizes Swiper.js for engaging and interactive content browsing.</li>
                         <li>**Detailed Modals:** Provides in-depth case studies for projects and full articles, keeping the main page clean.</li>
                         <li>**Dark Mode Toggle:** User-preference based theme switching for comfortable viewing.</li>
                         <li>**Contact Form with Email.js:** Direct and reliable communication method for inquiries.</li>
                         <li>**Preloader Animation:** Enhances perceived loading speed and user experience.</li>
                     </ul>
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Challenges & Solutions:** Integrating various interactive libraries (Swiper.js, Email.js) while maintaining high performance and a lean codebase was a challenge. I focused on efficient loading and minimal external dependencies. Crafting compelling and concise content for each section also required significant iteration.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     **Results/Impact:** This portfolio serves as a live demonstration of my technical and creative abilities, providing a comprehensive and engaging introduction to my professional profile.
                 </p>
-                <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded-full">HTML5</span>
-                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Tailwind CSS</span>
-                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded-full">JavaScript</span>
-                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Swiper.js</span>
-                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Email.js</span>
-                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Responsive Design</span>
-                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Accessibility</span>
+                <div class="flex flex-wrap gap-1 mb-2">
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">HTML5</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Tailwind CSS</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">JavaScript</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Swiper.js</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Email.js</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Responsive Design</span>
+                    <span class="bg-[#fa7b00] text-white text-xs font-medium px-2 py-0.5 rounded-full">Accessibility</span>
                 </div>
-                <div class="flex justify-start gap-4 mt-4">
-                    <a href="#" class="bg-blue-600 text-white px-6 py-2 rounded-full text-md font-semibold hover:bg-blue-700 transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
-                    <a href="#" class="bg-gray-200 text-gray-800 px-6 py-2 rounded-full text-md font-semibold hover:bg-gray-300 transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
+                <div class="flex justify-start gap-2 mt-2">
+                    <a href="#" class="bg-[#fa7b00] text-white px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d46a00] transition duration-300" target="_blank" rel="noopener noreferrer">Live Demo <i class="fas fa-external-link-alt ml-1"></i></a>
+                    <a href="#" class="bg-[#ececec] text-[#100C24] px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-[#d1d1d1] transition duration-300" target="_blank" rel="noopener noreferrer">GitHub <i class="fab fa-github ml-1"></i></a>
                 </div>
             </div>
         </div>
@@ -695,125 +697,119 @@
         <div id="modal-article-technology" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close article">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">The World of Technology: A Glimpse into the Future</h3>
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">The World of Technology: A Glimpse into the Future</h3>
+                <p class="text-[#100C24] mb-2 text-sm">
                     In an era defined by rapid innovation, technology has become the driving force behind virtually every aspect of our lives. From the smartphones in our pockets to the complex algorithms powering global industries, technology is constantly evolving, reshaping how we work, communicate, and interact with the world.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     The landscape of technology is vast and diverse, encompassing fields like Artificial Intelligence (AI), Machine Learning (ML), Blockchain, Quantum Computing, and the Internet of Things (IoT). AI, in particular, is revolutionizing industries by enabling machines to learn from data, make decisions, and even create content, pushing the boundaries of what's possible.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     Beyond the technical marvels, technology's true impact lies in its ability to solve real-world problems and improve human lives. It's empowering education through e-learning platforms, transforming healthcare with telemedicine and diagnostics, and fostering global connectivity like never before. However, this rapid advancement also brings challenges, including ethical considerations, data privacy concerns, and the need for digital literacy.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     As we look to the future, the world of technology promises even more profound changes. We can anticipate smarter cities, more personalized experiences, and solutions to some of humanity's most pressing issues, from climate change to disease. Staying curious, adaptable, and ethically minded will be key to navigating and contributing to this ever-evolving digital frontier.
                 </p>
-                <p class="text-gray-600 text-sm italic mt-6">By Ismail Ibrahim Mensah</p>
+                <p class="text-[#100C24] text-xs italic mt-2">By Ismail Ibrahim Mensah</p>
             </div>
         </div>
 
         <div id="modal-article-accessibility" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close article">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Designing for Accessibility: A Practical Guide</h3>
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Designing for Accessibility: A Practical Guide</h3>
+                <p class="text-[#100C24] mb-2 text-sm">
                     Accessibility in design is not just a feature; it's a fundamental right. Creating digital experiences that are usable by everyone, regardless of their abilities, is crucial for inclusive technology. This guide outlines practical steps to integrate accessibility from the ground up.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     Key principles include providing alternative text for images, ensuring proper color contrast, making content navigable via keyboard, and offering captions for multimedia. Tools like screen readers and accessibility checkers can help identify and rectify issues, ensuring a broader audience can interact with your designs.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     Beyond compliance, accessible design often leads to better usability for all users, improved SEO, and a stronger brand reputation. It encourages a deeper understanding of diverse user needs, fostering innovation and empathy in the development process.
                 </p>
-                <p class="text-gray-600 text-sm italic mt-6">By Ismail Ibrahim Mensah</p>
+                <p class="text-[#100C24] text-xs italic mt-2">By Ismail Ibrahim Mensah</p>
             </div>
         </div>
 
         <div id="modal-article-storytelling" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close article">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Storytelling in UI/UX: Engaging Users Through Narrative</h3>
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Storytelling in UI/UX: Engaging Users Through Narrative</h3>
+                <p class="text-[#100C24] mb-2 text-sm">
                     Humans are naturally drawn to stories. In the realm of UI/UX design, leveraging narrative principles can transform a functional interface into a memorable and engaging experience. Storytelling helps users understand complex processes, feel connected to a product, and anticipate their next steps.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     This involves defining a clear user journey (the plot), identifying user goals and pain points (the conflict), and crafting intuitive interactions that guide them towards a successful outcome (the resolution). Visuals, micro-interactions, and even error messages can all contribute to the overarching narrative.
                 </p>
-                <p class="text-gray-700 mb-4">
-                    By consciously designing with a story in mind, we can create products that resonate on an emotional level, leading to higher user satisfaction, retention, and brand loyalty. It's about making the user the hero of their own digital adventure.
-                </p>
-                <p class="text-gray-600 text-sm italic mt-6">By Ismail Ibrahim Mensah</p>
+                <p class="text-[#100C24] text-xs italic mt-2">By Ismail Ibrahim Mensah</p>
             </div>
         </div>
 
         <div id="modal-article-clean-code" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close article">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">The Power of Clean Code: A Developer's Perspective</h3>
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">The Power of Clean Code: A Developer's Perspective</h3>
+                <p class="text-[#100C24] mb-2 text-sm">
                     In software development, writing "clean code" is more than just a stylistic preference; it's a critical practice that impacts maintainability, scalability, and team collaboration. Clean code is readable, understandable, and easily modifiable, minimizing technical debt and fostering efficient development cycles.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     It involves adhering to principles like clear naming conventions, small and focused functions, consistent formatting, and effective commenting where necessary. While it might seem like extra effort upfront, the long-term benefits in debugging, feature expansion, and onboarding new team members are immense.
                 </p>
-                <p class="text-gray-700 mb-4">
-                    Ultimately, clean code is a sign of professionalism and respect for future developers (including your future self). It transforms complex systems into manageable components, making the development process more enjoyable and the end product more robust.
-                </p>
-                <p class="text-gray-600 text-sm italic mt-6">By Ismail Ibrahim Mensah</p>
+                <p class="text-[#100C24] text-xs italic mt-2">By Ismail Ibrahim Mensah</p>
             </div>
         </div>
 
         <div id="modal-privacy-policy" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close privacy policy">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Privacy Policy</h3>
-                <p class="text-gray-700 mb-4 text-sm">**Last updated: May 24, 2025**</p>
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Privacy Policy</h3>
+                <p class="text-[#100C24] mb-2 text-sm">**Last updated: May 24, 2025**</p>
+                <p class="text-[#100C24] mb-2 text-sm">
                     This Privacy Policy describes how Ismail Ibrahim Mensah ("I", "my", or "me") collects, uses, and discloses information when you use this portfolio website (the "Service").
                 </p>
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Information I Collect</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Information I Collect</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     I collect information that you directly provide to me when you use the contact form. This includes:
                 </p>
-                <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1 mb-4">
+                <ul class="list-disc list-inside text-[#100C24] ml-2 space-y-0.5 mb-2">
                     <li>**Personal Identifiable Information:** Your name, email address, and any message content you provide.</li>
                 </ul>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     I do not collect any other personal information through cookies, tracking technologies, or third-party services, except for standard, non-identifying analytics data collected by hosting providers or aggregated general traffic data (e.g., number of visitors).
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">How I Use Your Information</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">How I Use Your Information</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     I use the information you provide via the contact form solely to:
                 </p>
-                <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1 mb-4">
+                <ul class="list-disc list-inside text-[#100C24] ml-2 space-y-0.5 mb-2">
                     <li>Respond to your inquiries or messages.</li>
                     <li>Communicate with you regarding potential projects or collaborations.</li>
                 </ul>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Sharing Your Information</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Sharing Your Information</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     I do not share, sell, rent, or trade your personal information with any third parties, except as required by law.
                     The contact form uses Email.js, a third-party service, to facilitate sending messages directly to my email without server-side code. Email.js processes the form data to send the email and adheres to its own privacy policy. Your information is not stored by Email.js beyond the transmission of the email.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Data Security</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Data Security</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     I take reasonable measures to protect the information you provide to me from unauthorized access or disclosure. However, no internet transmission is entirely secure.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Your Choices and Rights</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Your Choices and Rights</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     You have the right to request access to, correction of, or deletion of any personal information I may hold about you. Please contact me directly using the contact details provided on this website.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Changes to This Privacy Policy</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Changes to This Privacy Policy</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     I may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Contact Me</h4>
-                <p class="text-gray-700">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Contact Me</h4>
+                <p class="text-[#100C24] text-sm">
                     If you have any questions about this Privacy Policy, please contact me at: ismailmensah055@gmail.com
                 </p>
             </div>
@@ -822,47 +818,47 @@
         <div id="modal-terms-of-service" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
             <div class="modal-content">
                 <button class="modal-close-button" aria-label="Close terms of service">&times;</button>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">Terms of Service</h3>
-                <p class="text-gray-700 mb-4 text-sm">**Last updated: May 24, 2025**</p>
-                <p class="text-gray-700 mb-4">
+                <h3 class="text-2xl font-bold text-[#100C24] mb-2">Terms of Service</h3>
+                <p class="text-[#100C24] mb-2 text-sm">**Last updated: May 24, 2025**</p>
+                <p class="text-[#100C24] mb-2 text-sm">
                     Welcome to Ismail Ibrahim Mensah's portfolio website. These Terms of Service ("Terms") govern your use of the Service. By accessing or using the Service, you agree to be bound by these Terms.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Use of Service</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Use of Service</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     This website is provided for informational purposes only, showcasing my professional work, skills, and contact information. You may not use this Service for any unlawful or prohibited purpose.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Intellectual Property</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Intellectual Property</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     All content on this website, including text, graphics, logos, images, and project descriptions, is the intellectual property of Ismail Ibrahim Mensah unless otherwise stated. You may not reproduce, distribute, modify, or create derivative works from any content without my express written permission.
                 </p>
-                <p class="text-gray-700 mb-4">
+                <p class="text-[#100C24] mb-2 text-sm">
                     Any external project links or examples displayed are for demonstration purposes and remain the intellectual property of their respective owners or creators.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Disclaimer of Warranties</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Disclaimer of Warranties</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     The Service is provided on an "as-is" and "as available" basis, without any warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, or non-infringement. I do not warrant that the Service will be uninterrupted, secure, or error-free.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Limitation of Liability</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Limitation of Liability</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     In no event shall Ismail Ibrahim Mensah be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use, or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence), or any other legal theory, whether or not I have been informed of the possibility of such damage.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Governing Law</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Governing Law</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     These Terms shall be governed and construed in accordance with the laws of Ghana, without regard to its conflict of law provisions.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Changes to These Terms</h4>
-                <p class="text-gray-700 mb-4">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Changes to These Terms</h4>
+                <p class="text-[#100C24] mb-2 text-sm">
                     I reserve the right, at my sole discretion, to modify or replace these Terms at any time. If a revision is material, I will try to provide at least 30 days' notice prior to any new terms taking effect. By continuing to access or use my Service after those revisions become effective, you agree to be bound by the revised terms.
                 </p>
 
-                <h4 class="text-xl font-semibold text-gray-900 mb-2">Contact Me</h4>
-                <p class="text-gray-700">
+                <h4 class="text-xl font-semibold text-[#100C24] mb-1">Contact Me</h4>
+                <p class="text-[#100C24] text-sm">
                     If you have any questions about these Terms, please contact me at: ismailmensah055@gmail.com
                 </p>
             </div>
@@ -872,7 +868,6 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
