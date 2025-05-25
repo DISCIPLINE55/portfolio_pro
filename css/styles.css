@@ -13,7 +13,7 @@
             color: #FFFFFF; /* White text for dark mode */
         }
         body.dark .bg-white {
-            background-color: #4a4643; /* Darker card/section background in dark mode */
+            background-color: #8d8c8a; /* Darker card/section background in dark mode */
             color: #FFFFFF;
         }
         body.dark .bg-gray-50 { /* Used for testimonial cards in light mode */
@@ -46,11 +46,11 @@
             border-color: #605c58; /* Adjust border color for dark mode */
         }
         body.dark .modal-content {
-            background-color: #4a4643;
+            background-color: #fee7d0;
             color: #FFFFFF;
         }
         body.dark .modal-close-button {
-            color: #e0e0e0;
+            color: #f95d5d;
         }
         body.dark input, body.dark textarea {
             background-color: #605c58;
@@ -400,7 +400,7 @@
             border: 1px solid rgba(0,0,0,0.05); /* Subtle border for definition */
         }
         body.dark .skill-card, body.dark .service-card, body.dark .project-card, body.dark .article-card, body.dark .testimonial-card, body.dark .certification-card, body.dark .education-card {
-            border-color: rgba(255,255,255,0.1); /* Subtle border for dark mode */
+            border-color: rgba(174, 107, 107, 0.1); /* Subtle border for dark mode */
         }
 
 
@@ -411,7 +411,7 @@
             border: 1px solid rgba(0,0,0,0.05); /* Subtle border */
         }
         body.dark .contact-form {
-            border-color: rgba(255,255,255,0.1);
+            border-color: rgba(192, 169, 169, 0.975);
         }
 
         .contact-form input, .contact-form textarea {
