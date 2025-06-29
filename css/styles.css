@@ -283,9 +283,9 @@
         }
 
         /* Specific styles for Ismail's profile image if he provides one */
-        .profile-img {
-            /* object-position: center top; */
-        }
+        /*.profile-img {
+            /* object-position: center top; 
+        }*/
 
         /* Skill bar animation */
         @keyframes fillProgressBar {
